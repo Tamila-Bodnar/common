@@ -37,7 +37,8 @@
   "files": [
     "common.mjs",
     "lib/",
-    "dist/"
+    "dist/",
+    "types/"
   ],
   "scripts": {
     "test": "npm run -s lint && tsc -p types/tsconfig.json && metatests test/ && for test in ./sequential-test/*.js; do metatests \"$test\"; done",
