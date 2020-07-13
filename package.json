@@ -32,7 +32,7 @@
     "dist/lib/network.js": false,
     "dist/lib/stream.js": false
   },
-  "types": "./types/metarhia__common.d.ts",
+  "types": "./types/common.d.ts",
   "readmeFilename": "README.md",
   "files": [
     "common.mjs",

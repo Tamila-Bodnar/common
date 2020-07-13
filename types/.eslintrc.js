@@ -10,5 +10,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/ban-types': 'off',
+    // This rule doesn't work correctly without a special plugin for TS.
+    'import/no-unresolved': 'off',
   },
 };
